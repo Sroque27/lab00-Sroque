@@ -57,10 +57,13 @@ These problems are deliberately open-ended. You have the flexibility to design t
 ## Lab Assessment
 
 1. As you wrote this Python code, which concept felt the most unfamiliar?
+2. 
 The most unfamiliar part for me was working with nested loops in Part 1. I don’t use 2D lists very often, so looping through each row and then each value made me slow down a bit. Once I got the pattern, it made sense.
 
-2. Did you encounter any technical issues during this lab?
+3. Did you encounter any technical issues during this lab?
+4. 
 The only small issue I ran into was in Part 3. At first, I tried increasing the dictionary count without checking if the key existed, which caused an error. Using .get() fixed it right away. Everything else worked fine.
 
-3. Looking back at Part 2, how did you logically verify that your `while` loop would not result in an infinite loop?
+5. Looking back at Part 2, how did you logically verify that your `while` loop would not result in an infinite loop?
+6. 
 I checked how the Collatz rules behave. Even numbers always get smaller because they’re divided by 2, and odd numbers eventually turn into even numbers after the 3n + 1 step. Since the value keeps moving toward smaller numbers, it will eventually reach 1. I also tested a few inputs to make sure the loop always finished.
